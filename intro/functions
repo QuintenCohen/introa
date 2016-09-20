@@ -1,0 +1,10 @@
+<script>
+    
+    var y=prompt("give me a final destination");
+    f(y);
+    
+    function f(x)
+    {
+        alert ("Gas Mileage : " + ((x-10000)/12));
+    }
+    </script>
