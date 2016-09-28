@@ -1,0 +1,15 @@
+<script>
+  var rate = prompt('How much did you buy your car for?');
+  rate = parseFloat(rate);
+  var percent = prompt('what is the interest rate of the loan in %');
+  percent = parseFloat(percent);
+  var initialrate = f(rate,percent);
+       
+  alert(initialrate)
+     
+  function f(x,y)
+    {
+        var monthly = y/12.0;
+        return x*monthly/100.0;
+    }
+</script>
