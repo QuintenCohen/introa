@@ -1,0 +1,28 @@
+<html>
+<head>
+</head>
+<body>
+<script>
+        // Count the number of times the letter “c” appears in any string.  
+    
+
+//var s = "how many c are there in this sentenCCCe cccccccccc"; 
+var s = prompt("write a sentence with a capital 'C' and a lowercase 'c'");
+var nrOfCs = 0;
+var nrOfcs = 0;
+for (var i = 0; i < s.length; i++) {
+        //console.log(i);
+    if (s[i] == "c"){
+        nrOfcs = nrOfcs + 1;
+	}
+	if (s[i] == "C"){
+        nrOfCs = nrOfCs + 1;
+    }
+}
+    
+alert("There are " + nrOfcs + "c's in there");
+alert("There are " + nrOfCs + "C's in there");	
+ 
+</script>    
+</body>
+</html>
