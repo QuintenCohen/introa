@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <meta name="description" content="">
+    <meta name="author" content="Quinten Cohen">
+
+    <title>Merry X-mas!!!</title>
+ 
+    <!-- CSS Sheets -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="carousel.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  
+	  <!-- END CSS Sheets -->
+
+  </head>
+
+  <body>
+    <!-- Carousel
+    ================================================== -->
+   <!DOCTYPE html>
+
+	  <html>
+<body bgcolor="#E6E6FA">
+
+	<h1>Happy Holidays</h1>
+	
+<link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+</body>
+</html>
+	
+	  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+		<li data-target="#myCarousel" data-slide-to="3"></li>
+		<li data-target="#myCarousel" data-slide-to="4"></li>
+		 <li data-target="#myCarousel" data-slide-to="5"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img class="first-slide" src="TP.jpeg" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+        
+					
+            </div>
+          </div>
+        </div>
+		  <div class="item"> 
+          <img class="second-slide" src="Sailing.jpeg"  alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              
+            </div>
+          </div>
+        </div>
+        <div class="item">	
+          <img class="third-slide" src="Duuk.jpeg"  alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+		
+				
+				
+				</div>
+          </div>
+        </div>
+        <div class="item">	
+		  <img class="fourth-slide" src="https://static.pexels.com/photos/17795/christmas-xmas-christmas-tree-decoration.jpg"  alt="fourth slide">
+          <div class="container">
+            <div class="carousel-caption">
+				
+				
+				
+				
+				
+				</div>
+          </div>
+        </div>
+        <div class="item">	
+          <img class="fifth-slide" src="https://i.ytimg.com/vi/UMLcItgUMfk/maxresdefault.jpg">
+          <div class="container">
+            <div class="carousel-caption">
+			
+				</div>
+          </div>
+        </div>
+        <div class="item">	
+          <img class="sixth-slide" src="http://www.visitnsw.com/nsw-tales/wp-content/uploads/2013/08/Snowboarding-at-Perisher-Snowy-Mountains-Image-Credit-Perisher.jpg">
+          <div class="container">
+            <div class="carousel-caption">
+
+            </div> 
+          </div>
+        </div>
+      </div>
+      
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div><!-- /.carousel -->
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
+	   
+	  
+	  <h1>Countdown Clock</h1>
+<div id="clockdiv">
+  <div>
+    <span class="days" > <div class="smalltext" id="days">Days</div></span>
+    <div class="smalltext">Days</div>
+  </div>
+  <div>
+	  <span class="hours"> <div class="smalltext" id="hours">Hours</div></span>
+    <div class="smalltext">Hours</div>
+  </div>
+  <div>
+    <span class="minutes"><div class="smalltext" id="minutes">minutes</div></span>
+    <div class="smalltext">Minutes</div>
+  </div>
+  <div>
+    <span class="seconds"><div class="smalltext" id="seconds">seconds</div></span>
+    <div class="smalltext">Seconds</div>
+  </div>
+</div>
+
+	<!-- 	  <div id="clockdiv">
+  <div>
+    <span><div class="smalltext" id="days"></div></span>
+    <div class="smalltext">Days</div>
+  </div>
+  <div>
+ <span> <div class="smalltext" id="hours">Hours</div></span>
+    <div class="smalltext">Hours</div>
+  </div>
+  <div>
+    <span><div class="smalltext" id="minutes">minutes</div></span>
+    <div class="smalltext">Minutes</div>
+  </div>
+  <div>
+    <span><div class="smalltext" id="seconds">seconds</div></span>
+    <div class="smalltext">Seconds</div>
+  </div> -->
+	  
+	  
+  <div class="container">   
+    <h1>Holidays Celebrated</h1>
+    <canvas id="myChart" width="400" height="200"></canvas>
+    </div>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.js"></script>
+
+    <script>
+    var ctx = document.getElementById("myChart");
+    var myChart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: ["New Year", "Christmas","Hanukkah", "Sinterklass", "Eid al-Fitr ", "St. Lucia Day"],
+            datasets: [{
+                label: '# of Votes',
+                data: [12, 19,10 , 3, 5, 1],
+                backgroundColor: [
+                    'rgba(255, 99, 132, 0.5)',
+                    'rgba(54, 255, 235, 0.5)',
+                    'rgba(250, 128, 114, 0.5)',
+                    'rgba(75, 192, 192, 0.2)',
+                    'rgba(153, 102, 255, 0.2)',
+                    'rgba(255, 159, 64, 0.2)'
+                ],
+                borderColor: [
+                    'rgba(255,99,132,1)',
+                    'rgba(54, 162, 235, 1)',
+                    'rgba(250, 128, 114,1)',
+                    'rgba(75, 192, 192, 1)',
+                    'rgba(153, 102, 255, 1)',
+                    'rgba(255, 159, 64, 1)'
+                ],
+                borderWidth: 1
+            }]
+        },
+        options: {
+            scales: {
+                yAxes: [{
+                    ticks: {
+                        beginAtZero:true
+                    }
+                }]
+            }
+        }
+    });
+
+ function days_between(date1, date2) {
+
+            // The number of milliseconds in one day
+            var ONE_DAY = 1000 * 60 * 60 * 24
+
+            // Convert both dates to milliseconds
+            var date1_ms = date1.getTime()
+            var date2_ms = date2.getTime()
+
+            // Calculate the difference in milliseconds
+            var difference_ms = Math.abs(date1_ms - date2_ms)
+
+            // Convert back to days and return
+            return Math.round(difference_ms/ONE_DAY)
+
+        }
+
+        function hours_between(date1, date2) {
+
+            // The number of milliseconds in one day
+            var ONE_HOUR = 1000 * 60 * 60
+
+            // Convert both dates to milliseconds
+            var date1_ms = date1.getTime()
+            var date2_ms = date2.getTime()
+
+            // Calculate the difference in milliseconds
+            var difference_ms = Math.abs(date1_ms - date2_ms)
+
+            // Convert back to days and return
+            return Math.round(difference_ms/ONE_HOUR)
+
+        }
+
+
+        function minutes_between(date1, date2) {
+
+            // The number of milliseconds in one day
+            var ONE_MINUTE = 1000 * 60
+
+            // Convert both dates to milliseconds
+            var date1_ms = date1.getTime()
+            var date2_ms = date2.getTime()
+
+            // Calculate the difference in milliseconds
+            var difference_ms = Math.abs(date1_ms - date2_ms)
+
+            // Convert back to days and return
+            return Math.round(difference_ms/ONE_MINUTE)
+
+        }
+	
+		
+		
+		
+			
+        $(function(){
+            var xmas = new Date(2016,11,25);
+            var currentdate = new Date();
+        
+            var daysTillXmas = days_between(xmas,currentdate);
+            var hoursTillXmas = hours_between(xmas,currentdate);
+			var minutesTillXmas = minutes_between(xmas,currentdate);
+			var secondsTillXmas = seconds_between(xmas,currentdate);
+
+            $("#days").text(daysTillXmas);
+            $("#hours").text(hoursTillXmas - daysTillXmas * 24);
+            $("#minutes").text(minutesTillXmas - hoursTillXmas * 60);
+            $("#seconds").text(secondsTillXmas - minutesTillXmas * 1000);
+        });
+	
+    </script>
+	  
+  
